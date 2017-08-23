@@ -1,0 +1,20 @@
+CREATE TABLE `clients` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `platform` varchar(30) DEFAULT NULL,
+  `id_platform` varchar(30) DEFAULT NULL,
+  `name` text,
+  `phone` varchar(20) DEFAULT NULL,
+  `mail` varchar(50) DEFAULT NULL,
+  `datareg` date DEFAULT NULL,
+  `country` varchar(100) DEFAULT NULL,
+  `birthday` datetime DEFAULT NULL,
+  `lead_name` varchar(80) DEFAULT NULL,
+  `team` varchar(20) DEFAULT NULL,
+  `status` varchar(15) DEFAULT NULL,
+  `secret_phone` varchar(20) DEFAULT NULL,
+  `second_phone` varchar(20) DEFAULT NULL,
+  `documents` varchar(200) DEFAULT NULL,
+  `timezone` varchar(30) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `unique_pl` (`platform`,`id_platform`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
