@@ -71,6 +71,7 @@ $team=$_SESSION['team'];
     echo '<input value="Home" onclick="location.href=\'/asterisk-stat/cdr.php\'" type="button" />
     <input value="Deposits" onclick="location.href=\'/depos/index.php\'" type="button" />
     <input value="Clients" onclick="location.href=\'/clients/index.php\'" type="button" />
+	<input value="Schedule" onclick="location.href=\'/schedule/index.php\'" type="button" />
     <input value="Registration" onclick="location.href=\'/site_reg/index.php\'" type="button" />
     <input value="Exit" onclick="location.href=\'/index.php?clear=exit\'" type="button" />
     <br>
@@ -86,6 +87,7 @@ $team=$_SESSION['team'];
 elseif ($_SESSION['user_id'] == "user"){ 
 echo '<h1>Hi, User</h1>';
 echo '<input value="Home" onclick="location.href=\'/asterisk-stat/cdr.php\'" type="button" />
+<input value="Schedule" onclick="location.href=\'/schedule/index.php\'" type="button" />
 <input value="Audio Recording" onclick="location.href=\'/ast-rec/index.php\'" type="button" />
 <input value="Statistics registration" onclick="location.href=\'/phone/stat.php\'" type="button" />
 <input value="Exit" onclick="location.href=\'/index.php?clear=exit\'" type="button" />
@@ -106,6 +108,7 @@ echo '
 <input value="Audio Recording" onclick="location.href=\'/ast-rec/index.php\'" type="button" />
 <input value="Deposits" onclick="location.href=\'/depos/index.php\'" type="button" />
 <input value="Clients" onclick="location.href=\'/clients/index.php\'" type="button" />
+<input value="Schedule" onclick="location.href=\'/schedule/index.php\'" type="button" />
 <input value="Exit" onclick="location.href=\'/index.php?clear=exit\'" type="button" />
 <br>
     <br>

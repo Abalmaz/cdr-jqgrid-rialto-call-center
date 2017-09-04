@@ -5,7 +5,7 @@ $team=$_SESSION['team'];
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Retention</title>
+    <title>Schedule</title>
 
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta http-equiv="Content-Style-Type" content="text/css" />
@@ -124,6 +124,7 @@ $team=$_SESSION['team'];
     <input value="Home" class="ui-button" onclick="location.href=\'/asterisk-stat/cdr.php\'" type="button" />
     <input value="Deposits" class="ui-button" onclick="location.href=\'/depos/index.php\'" type="button" />
     <input value="Clients" class="ui-button" onclick="location.href=\'/clients/index.php\'" type="button" />
+	<input value="Retention" class="ui-button" onclick="location.href=\'/rtd/index.php\'" type="button" />
     <input value="Registration" class="ui-button" onclick="location.href=\'/site_reg/index.php\'" type="button" />
     <input value="Exit" class="ui-button" onclick="location.href=\'/index.php?clear=exit\'" type="button" />
     </div>
@@ -173,6 +174,7 @@ elseif ($_SESSION['user_id'] == "user"){
     echo '
 <div class="menu" align="center">
 <input value="Home" class="ui-button" onclick="location.href=\'/asterisk-stat/cdr.php\'" type="button" />
+<input value="Retention" class="ui-button" onclick="location.href=\'/rtd/index.php\'" type="button" />
 <input value="Audio Recording" class="ui-button" onclick="location.href=\'/ast-rec/index.php\'" type="button" />
 <input value="Statistics registration" class="ui-button" onclick="location.href=\'/phone/stat.php\'" type="button" />
 <input value="Exit" class="ui-button" onclick="location.href=\'/index.php?clear=exit\'" type="button" />
@@ -224,6 +226,7 @@ elseif ($_SESSION['user_id'] == "rtd"){
 <input value="Audio Recording" class="ui-button" onclick="location.href=\'/ast-rec/index.php\'" type="button" />
 <input value="Deposits" class="ui-button" onclick="location.href=\'/depos/index.php\'" type="button" />
 <input value="Clients" class="ui-button" onclick="location.href=\'/clients/index.php\'" type="button" />
+<input value="Retention" class="ui-button" onclick="location.href=\'/rtd/index.php\'" type="button" />
 <input value="Exit" class="ui-button" onclick="location.href=\'/index.php?clear=exit\'" type="button" />
 </div>
 <br>

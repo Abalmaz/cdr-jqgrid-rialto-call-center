@@ -31,6 +31,7 @@ if ($_SESSION['user_id'] == "admin") {
     <input value="Home" class="ui-button" onclick="location.href=\'/asterisk-stat/cdr.php\'" type="button" />
     <input value="Deposits" class="ui-button" onclick="location.href=\'/depos/index.php\'" type="button" />
     <input value="Retention" class="ui-button" onclick="location.href=\'/rtd/index.php\'" type="button" />
+	<input value="Schedule" class="ui-button" onclick="location.href=\'/schedule/index.php\'" type="button" />
     <input value="Registration" class="ui-button" onclick="location.href=\'/site_reg/index.php\'" type="button" />
     <input value="Exit" class="ui-button" onclick="location.href=\'/index.php?clear=exit\'" type="button" />
     </div>
@@ -42,6 +43,7 @@ else if ($_SESSION['user_id'] == "rtd") {
     <input value="Audio Recording" class="ui-button" onclick="location.href=\'/ast-rec\'" type="button" />
     <input value="Deposits" class="ui-button" onclick="location.href=\'/depos/index.php\'" type="button" />
     <input value="Retention" class="ui-button" onclick="location.href=\'/rtd/index.php\'" type="button" />
+	<input value="Schedule" class="ui-button" onclick="location.href=\'/schedule/index.php\'" type="button" />
   
     <input value="Exit" class="ui-button" onclick="location.href=\'/index.php?clear=exit\'" type="button" />
     </div>
